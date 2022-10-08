@@ -40,8 +40,7 @@ public class NamesAdapter extends BaseAdapter
         String nombreActual = String.valueOf(info.get(position));
         TextView tvNombre = v.findViewById(R.id.tvNombre);
         tvNombre.setText(nombreActual);
-        TextView tvApe = v.findViewById(R.id.tvApe);
-        tvApe.setText(nombreActual);
+
         return v;
 
     }

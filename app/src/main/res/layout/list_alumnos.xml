@@ -30,6 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
+            android:background="#E00F41"
             android:gravity="bottom|left"
             android:textColor="@android:color/black"
             android:textStyle="bold"
@@ -39,9 +40,10 @@
             android:id="@+id/tvApe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="#E00F41"
             android:gravity="top|left"
             android:textColor="@android:color/black"
-            android:textSize="20sp"
             tools:ignore="RtlHardcoded" />
 
     </LinearLayout>
